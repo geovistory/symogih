@@ -1,0 +1,194 @@
+<mxfile host="Electron" modified="2023-10-26T08:21:56.292Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="j25ycDAOrrdws35CyBR7" version="22.0.3" type="device">
+  <diagram name="Page-1" id="qAYMaOa14U7y1kj9WPA6">
+    <mxGraphModel dx="1434" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4ujWol-dGV_7_zOefWRV-1" value="Geographical place&lt;br&gt;(363)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;geo_place&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="610" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-2" value="Appellation in a Language&lt;br&gt;(365)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;aial&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="390" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-3" value="Kind &lt;br&gt;(1209)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;kind&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="695" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-4" value="Definition&lt;br&gt;(899)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;definition&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="235" y="800" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-5" value="URI&lt;br&gt;(67)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;uri&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="395" y="820" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-6" value="Presence&lt;br&gt;(84)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;presence&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="535" y="750" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-9" value="has definition&lt;br&gt;(1762)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-1" target="4ujWol-dGV_7_zOefWRV-4">
+          <mxGeometry x="-0.0029" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="750" as="sourcePoint" />
+            <mxPoint x="390" y="850" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-11" value="has geographical place kind&lt;br&gt;(1110)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-1" target="4ujWol-dGV_7_zOefWRV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359" y="711" as="sourcePoint" />
+            <mxPoint x="264" y="769" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-12" value="same as URI&lt;br&gt;(1943)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-1" target="4ujWol-dGV_7_zOefWRV-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="369" y="721" as="sourcePoint" />
+            <mxPoint x="274" y="779" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-13" value="was presence of&lt;br&gt;(147)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-6" target="4ujWol-dGV_7_zOefWRV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379" y="731" as="sourcePoint" />
+            <mxPoint x="284" y="789" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-2" target="4ujWol-dGV_7_zOefWRV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389" y="741" as="sourcePoint" />
+            <mxPoint x="294" y="799" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-15" value="Appellation&lt;br&gt;(40)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;definition_appe&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="25" y="870" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-16" value="has value version&lt;br&gt;(1864)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-4" target="4ujWol-dGV_7_zOefWRV-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="751" as="sourcePoint" />
+            <mxPoint x="304" y="809" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-17" value="Appellation&lt;br&gt;(40)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;uri_appe&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="500" y="975" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-18" value="has value&lt;br&gt;(1843)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-5" target="4ujWol-dGV_7_zOefWRV-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="199" y="826" as="sourcePoint" />
+            <mxPoint x="131" y="884" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-19" value="Place&lt;br&gt;(51)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;place&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="680" y="870" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-20" value="was at&lt;br&gt;(148)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-6" target="4ujWol-dGV_7_zOefWRV-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="338" y="893" as="sourcePoint" />
+            <mxPoint x="302" y="947" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-21" value="Appellation in a language Type&lt;br&gt;(630)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;name_type&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="130" y="520" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-22" value="has appellation for language type&lt;br&gt;(1430)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-2" target="4ujWol-dGV_7_zOefWRV-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="620" as="sourcePoint" />
+            <mxPoint x="470" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-23" value="Appellation&lt;br&gt;(40)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;name&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="110" y="370" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-24" value="refers to name&lt;br&gt;(1113)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-2" target="4ujWol-dGV_7_zOefWRV-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="416" y="538" as="sourcePoint" />
+            <mxPoint x="159" y="592" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-25" value="Language&lt;br&gt;(54)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;name_lang&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="145" y="220" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-26" value="used in language&lt;br&gt;(1112)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-2" target="4ujWol-dGV_7_zOefWRV-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="620" as="sourcePoint" />
+            <mxPoint x="470" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-27" value="Time primitive&lt;br&gt;(335)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;name_datebegin&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-28" value="begin of the begin&lt;br&gt;(152)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-2" target="4ujWol-dGV_7_zOefWRV-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="270" as="sourcePoint" />
+            <mxPoint x="460" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-29" value="Comment&lt;br&gt;(900)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;name_comment_begin&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="485" y="180" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-30" value="has comment&lt;br&gt;(1763)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-2" target="4ujWol-dGV_7_zOefWRV-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="270" as="sourcePoint" />
+            <mxPoint x="460" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-31" value="Comment type&lt;br&gt;(904)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;name_comment_begin_type&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="30" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-32" value="has comment type&lt;br&gt;(1866)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-29" target="4ujWol-dGV_7_zOefWRV-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="150" as="sourcePoint" />
+            <mxPoint x="460" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-34" value="Appellation&lt;br&gt;(40)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;name_comment_begin&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="700" y="75" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-35" value="has value version&lt;br&gt;(1864)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-29" target="4ujWol-dGV_7_zOefWRV-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="150" as="sourcePoint" />
+            <mxPoint x="460" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-36" value="Comment&lt;br&gt;(900)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;name_comment_end&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="525" y="505" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-37" value="has comment&lt;br&gt;(1763)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="4ujWol-dGV_7_zOefWRV-36" source="4ujWol-dGV_7_zOefWRV-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="767" y="370" as="sourcePoint" />
+            <mxPoint x="790" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-38" value="Comment type&lt;br&gt;(904)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;name_comment_end_type&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="720" y="420" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-39" value="has comment type&lt;br&gt;(1866)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-36" target="4ujWol-dGV_7_zOefWRV-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="143" as="sourcePoint" />
+            <mxPoint x="790" y="93" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-40" value="Appellation&lt;br&gt;(40)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;name_comment_end&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="625" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-41" value="has value version&lt;br&gt;(1864)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-36" target="4ujWol-dGV_7_zOefWRV-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="143" as="sourcePoint" />
+            <mxPoint x="790" y="93" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-42" value="Time primitive&lt;br&gt;(335)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;name_dateend&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="580" y="285" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-43" value="end of the end&lt;br&gt;(153)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-2" target="4ujWol-dGV_7_zOefWRV-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439" y="395" as="sourcePoint" />
+            <mxPoint x="331" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-44" value="Language&lt;br&gt;(54)&lt;br&gt;&lt;font color=&quot;#ee7744&quot;&gt;definition_lang&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="975" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="4ujWol-dGV_7_zOefWRV-45" value="has language&lt;br&gt;(63)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4ujWol-dGV_7_zOefWRV-4" target="4ujWol-dGV_7_zOefWRV-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="940" as="sourcePoint" />
+            <mxPoint x="450" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
